@@ -7,7 +7,7 @@ import {
 } from "@tabler/icons-react";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
-import { cn } from "../utils/cn";
+import { cn } from "../app/utils/cns/cn";
 
 export function SignupFormDemo() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
